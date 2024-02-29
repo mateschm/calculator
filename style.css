@@ -1,0 +1,88 @@
+body { 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: rgb(48, 47, 47);
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    border: solid rgb(110, 110, 110) 1px;
+    height: 60px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: rgb(167, 167, 167);
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.field::selection {
+    border-radius: 10px;
+    background-color: rgb(106, 152, 221);
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+    gap: 5px;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.button {
+    background-color: rgb(117, 117, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.button::selection {
+    background-color:transparent;
+}
+
+.button:active {
+    background-color: white;
+}
+
+.operator {
+    background-color: rgb(167, 167, 167);
+}
+
+.equals {
+    background-color: rgb(106, 152, 221);
+}
+
+
+
+
+
+
+
+
