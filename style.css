@@ -27,6 +27,7 @@ body {
     font-size: 50px;
     display: flex;
     justify-content: flex-end;
+    user-select: none; 
 }
 
 .field::selection {
@@ -61,6 +62,7 @@ body {
     border-radius: 10px;
     font-size: 30px;
     cursor: pointer;
+    user-select: none; 
 }
 
 .button::selection {
@@ -79,7 +81,9 @@ body {
     background-color: rgb(106, 152, 221);
 }
 
-
+.clear {
+    background-color: rgb(167, 167, 167);
+}
 
 
 
